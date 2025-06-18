@@ -13,7 +13,7 @@ interface SidebarItemProps {
 }
 
 const SidebarButton = ({
-  id,
+  
   label,
   icon: Icon,
   href,

@@ -53,7 +53,7 @@ const Attendance = () => {
         {/* Today's Status */}
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
           <div className="flex items-center justify-between mb-4">
-            <h3 className="text-lg font-semibold text-gray-900">Today's Status</h3>
+            <h3 className="text-lg font-semibold text-gray-900">Todays Status</h3>
             <div className="flex items-center space-x-2 text-green-600">
               <CheckCircle size={20} />
               <span className="font-medium">Present</span>

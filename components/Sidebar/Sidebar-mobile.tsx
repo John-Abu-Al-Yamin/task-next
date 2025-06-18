@@ -56,7 +56,7 @@ const SidebarMobile = () => {
           
           {/* Main navigation container */}
           <div className="relative px-2 py-4 flex items-center justify-between">
-            {navItems.map(({ href, icon: Icon, label, id }, index) => {
+            {navItems.map(({ href, icon: Icon, label, id }) => {
               const isActive = pathname === href;
 
               return (
